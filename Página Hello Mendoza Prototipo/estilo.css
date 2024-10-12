@@ -1,0 +1,192 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    padding: 1rem;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Hero Section */
+  #hero {
+    height: 100vh;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Secciones generales */
+  section {
+    padding: 4rem 0;
+
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+  }
+  
+
+  /* Personalización para pantallas pequeñas */
+@media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+    
+    p {
+      font-size: 1rem;
+    }
+    
+    #hero {
+      padding: 2rem 1rem;
+    }
+  }
+  
+  /* Personalización para pantallas grandes */
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+    
+    p {
+      font-size: 1.4rem;
+    }
+  }
+
+  /* Contenedor de la barra de progreso */
+  .progress-container {
+    width: 100%;
+    background-color: #494949;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 20px auto;
+    height: 10px;
+    max-width: 600px;
+    opacity: 0; /* Inicialmente invisible */
+    transform: translateY(50px); /* Desplazamiento hacia abajo */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  /* Barra de progreso */
+  .progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 3s ease-in-out;
+  }
+
+  /* Clases que se activan cuando el elemento está en pantalla */
+  .progress-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Estilo para el logo */
+.logo {
+  width: 100px;  /* Cambia el valor según el tamaño deseado */
+  height: auto;  /* Mantiene la proporción original */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagenhotel {
+  width: 100%;  /* Cambia el valor según el tamaño deseado */
+  height: auto;  /* Mantiene la proporción original */
+}
+.imagenhotel1 {
+  width: 100%;  /* Cambia el valor según el tamaño deseado */
+  height: auto;  /* Mantiene la proporción original */
+}
+    
+.centrao {
+  width: 50%; /* Ancho del div */
+  margin: 0 auto; /* Centrado horizontal */
+  padding: 20px;
+  text-align: center; /* Opcional: centra el texto dentro del div */
+  
+
+  display: flex;       /* Flexbox para los elementos hijos */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Alinea los elementos verticalmente */
+  gap: 50px;           /* Espacio entre los iconos */
+} 
+ 
+.telefono-container {
+  display: flex; /* Flexbox para alinear ícono y número horizontalmente */
+  align-items: center; /* Alinea verticalmente */
+}
+
+.telefono-container img {
+  margin-right: 10px; /* Espacio entre el ícono y el número */
+}
+
+.telefono {
+  white-space: nowrap; /* Mantiene el número en una sola línea */
+  font-size: 18px;
+  text-decoration: none; /* Quita el subrayado */
+  color: inherit; /* Hereda el color del contenedor */
+}
+
+.telefono:hover {
+  color: blue; /* Cambia el color cuando se pasa el mouse */
+}
+
+.rating-stars {
+  color: #f5c518; /* Color de las estrellas */
+  font-size: 25px;
+}
+.testimonial {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.testimonial img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.testimonial .customer-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ig{
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.x{
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.fb{
+  border-radius: 20px;
+  box-shadow:0 4px 8px rgba(0, 0, 0, 0.3) ;
+}
+
+.wa{
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
